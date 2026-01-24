@@ -22,7 +22,7 @@ const INITIAL_TEMPLATE_DATA = {
 
 function App() {
   const [formData, setFormData] = useState({
-    username: "nnycor207@gmail.com",
+    username: "",
     password: "",
   });
   const [isAuth, setIsAuth] = useState(false);
