@@ -87,12 +87,6 @@ function ProductModal({
                     )}
                   </div>
                   <div>
-                    {console.log(
-                      "imagesUrl 的型別:",
-                      typeof templateProduct.imagesUrl,
-                      "內容:",
-                      templateProduct.imagesUrl,
-                    )}
                     {templateProduct.imagesUrl?.map((url, index) => (
                       <div key={index}>
                         <label htmlFor="imageUrl" className="form-label">
